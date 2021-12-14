@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="900.0" style="-fx-background-color: #EBE8F0;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ElectronicsPage">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="8.0" prefHeight="272.0" prefWidth="270.0" style="-fx-background-color: white; -fx-background-radius: 35;">
+         <children>
+            <Label layoutX="17.0" layoutY="213.0" text="Price:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="235.0" text="Quantity:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="193.0" text="Name:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Quantity1" layoutX="72.0" layoutY="233.0" prefHeight="25.0" prefWidth="37.0" />
+            <ImageView fitHeight="181.0" fitWidth="206.0" layoutX="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/iphone13.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="192.0" layoutY="233.0" mnemonicParsing="false" onAction="#addbtn1" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #EBE8F0; -fx-background-radius: 20;" text="ADD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="61.0" layoutY="193.0" text="IPhone 13 Pro">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="62.0" layoutY="213.0" text="95000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="QuantityText1" layoutX="27.0" layoutY="173.0" prefHeight="17.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="295.0" prefHeight="272.0" prefWidth="270.0" style="-fx-background-color: white; -fx-background-radius: 35;">
+         <children>
+            <Label layoutX="17.0" layoutY="213.0" text="Price:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="235.0" text="Quantity:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="193.0" text="Name:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Quantity4" layoutX="72.0" layoutY="233.0" prefHeight="25.0" prefWidth="31.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Samsung_Galaxy_Tab_S7Plus.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="211.0" layoutY="229.0" mnemonicParsing="false" onAction="#addbtn4" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #EBE8F0; -fx-background-radius: 20;" text="ADD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="61.0" layoutY="193.0" text="Samsung TabS7+">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="61.0" layoutY="213.0" text="70000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="QuantityText4" layoutX="17.0" layoutY="176.0" prefHeight="17.0" prefWidth="221.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="315.0" layoutY="8.0" prefHeight="272.0" prefWidth="270.0" style="-fx-background-color: white; -fx-background-radius: 35;">
+         <children>
+            <Label layoutX="17.0" layoutY="213.0" text="Price:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="235.0" text="Quantity:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="193.0" text="Name:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Quantity2" layoutX="72.0" layoutY="233.0" prefHeight="25.0" prefWidth="31.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/dellxp17.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="210.0" layoutY="233.0" mnemonicParsing="false" onAction="#addbtn2" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #EBE8F0; -fx-background-radius: 20;" text="ADD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="61.0" layoutY="193.0" text="Dell XPS 17">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="213.0" text="85000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="QuantityText2" layoutX="14.0" layoutY="176.0" prefHeight="17.0" prefWidth="239.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="315.0" layoutY="295.0" prefHeight="272.0" prefWidth="270.0" style="-fx-background-color: white; -fx-background-radius: 35;">
+         <children>
+            <Label layoutX="17.0" layoutY="213.0" text="Price:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="235.0" text="Quantity:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="193.0" text="Name:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Quantity5" layoutX="72.0" layoutY="233.0" prefHeight="25.0" prefWidth="31.0" />
+            <ImageView fitHeight="120.0" fitWidth="200.0" layoutX="27.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/ipad-pro-12.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="206.0" layoutY="238.0" mnemonicParsing="false" onAction="#addbtn5" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #EBE8F0; -fx-background-radius: 20;" text="ADD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="61.0" layoutY="193.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="61.0" layoutY="213.0" text="65000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="QuantityText5" layoutX="25.0" layoutY="176.0" prefHeight="17.0" prefWidth="221.0" />
+            <Label layoutX="60.0" layoutY="193.0" prefHeight="20.0" prefWidth="108.0" text="IPad Pro">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="616.0" layoutY="295.0" prefHeight="272.0" prefWidth="270.0" style="-fx-background-color: white; -fx-background-radius: 35;">
+         <children>
+            <Label layoutX="17.0" layoutY="213.0" text="Price:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="235.0" text="Quantity:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="193.0" text="Name:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Quantity6" layoutX="72.0" layoutY="233.0" prefHeight="25.0" prefWidth="31.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/tv.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="217.0" layoutY="233.0" mnemonicParsing="false" onAction="#addbtn6" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #EBE8F0; -fx-background-radius: 20;" text="ADD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="61.0" layoutY="193.0" text="Samsung 8K T.V.">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="213.0" text="200000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="QuantityText6" layoutX="27.0" layoutY="170.0" prefHeight="17.0" prefWidth="221.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="616.0" layoutY="8.0" prefHeight="272.0" prefWidth="270.0" style="-fx-background-color: white; -fx-background-radius: 35;">
+         <children>
+            <Label layoutX="17.0" layoutY="213.0" text="Price:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="235.0" text="Quantity:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="193.0" text="Name:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Quantity3" layoutX="72.0" layoutY="233.0" prefHeight="25.0" prefWidth="31.0" />
+            <ImageView fitHeight="167.0" fitWidth="200.0" layoutX="57.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/macbookpro.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="200.0" layoutY="234.0" mnemonicParsing="false" onAction="#addbtn3" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #EBE8F0; -fx-background-radius: 20;" text="ADD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="61.0" layoutY="193.0" text="Mac Book Pro">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="61.0" layoutY="213.0" text="150000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="QuantityText3" layoutX="14.0" layoutY="173.0" prefHeight="17.0" prefWidth="221.0" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="396.0" layoutY="575.0" mnemonicParsing="false" onAction="#elebackbtn" prefHeight="25.0" prefWidth="108.0" style="-fx-background-color: white;" text="Back">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

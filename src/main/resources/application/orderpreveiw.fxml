@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OrderPreview">
+   <children>
+      <TableView fx:id="orderview" prefHeight="339.0" prefWidth="700.0">
+        <columns>
+          <TableColumn fx:id="colP_id" prefWidth="75.0" text="Product Id" />
+          <TableColumn fx:id="col_Name" prefWidth="119.0" text="Product Name" />
+            <TableColumn fx:id="col_Price" prefWidth="122.0" text="Product Price" />
+            <TableColumn fx:id="col_4qty" minWidth="6.0" prefWidth="105.0" text="Quantity" />
+            <TableColumn fx:id="col_disamt" prefWidth="125.0" text="Discount" />
+            <TableColumn fx:id="col_total" prefWidth="153.0" text="Total Price" />
+        </columns>
+      </TableView>
+      <Button layoutX="530.0" layoutY="371.0" mnemonicParsing="false" onAction="#PlaceOrderBtn" text="Place Order" textFill="#4855b7">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="371.0" mnemonicParsing="false" onAction="#backbutton" text="Back" textFill="#4855b7">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

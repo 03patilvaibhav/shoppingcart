@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PaymentMethodPage">
+   <children>
+      <Button layoutX="165.0" layoutY="260.0" mnemonicParsing="false" onAction="#debitcardbtn" style="-fx-background-color: #4855B7;" text="Debit/Credit Payment" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="194.0" layoutY="335.0" mnemonicParsing="false" onAction="#cashbtn" style="-fx-background-color: #4855B7;" text="Cash On Delivery" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="-8.0" prefHeight="110.0" prefWidth="608.0" style="-fx-background-color: #4855B7;">
+         <children>
+            <Label layoutX="190.0" layoutY="35.0" text="Payment Method" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="212.0" layoutY="190.0" mnemonicParsing="false" onAction="#UPIBtn" style="-fx-background-color: #4855B7;" text="UPI Payment" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

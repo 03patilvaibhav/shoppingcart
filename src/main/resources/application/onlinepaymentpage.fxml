@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="690.0" style="-fx-background-color: #4855B7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.onlinepaymentPage">
+   <children>
+      <AnchorPane layoutY="74.0" prefHeight="412.0" prefWidth="676.0" style="-fx-background-color: white;">
+         <children>
+            <TextField fx:id="HolderName" layoutX="205.0" layoutY="24.0" prefHeight="41.0" prefWidth="483.0" promptText="Enter name" style="-fx-border-color: #4855B7; -fx-border-radius: 45; -fx-background-radius: 45;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="16.0" layoutY="28.0" text="Card Holder Name" textFill="#2f57a8">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="cvvNo" layoutX="199.0" layoutY="86.0" prefHeight="41.0" prefWidth="483.0" promptText="Enter cvv no" style="-fx-border-color: #4855B7; -fx-border-radius: 45; -fx-background-radius: 45;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button layoutX="211.0" layoutY="312.0" mnemonicParsing="false" onAction="#paybtn" style="-fx-background-color: #4855B7;" text="Confirm Your Payment" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="30.0" layoutY="90.0" text="CVV NO" textFill="#2f57a8">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="153.0" text="Debit_no" textFill="#2f57a8">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="18.0" layoutY="222.0" text="Expiry_Date" textFill="#2f57a8">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="debitno" layoutX="199.0" layoutY="149.0" prefHeight="41.0" prefWidth="483.0" promptText="Enter card no" style="-fx-border-color: #4855B7; -fx-border-radius: 45; -fx-background-radius: 45;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="date" layoutX="199.0" layoutY="218.0" prefHeight="41.0" prefWidth="483.0" promptText="YYYYMMDD" style="-fx-border-color: #4855B7; -fx-border-radius: 45; -fx-background-radius: 45;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label fx:id="MessageText" layoutX="166.0" layoutY="411.0" prefHeight="32.0" prefWidth="438.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="265.0" layoutY="14.0" text="Payment " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

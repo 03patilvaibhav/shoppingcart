@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="848.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ProductTable">
+   <children>
+      <Button layoutX="14.0" layoutY="425.0" mnemonicParsing="false" onAction="#searchbackbtn" style="-fx-background-color: #4855B7;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <TableView fx:id="searchview" layoutY="1.0" prefHeight="263.0" prefWidth="848.0">
+        <columns>
+          <TableColumn fx:id="colP_id" prefWidth="156.0" text="Product ID" />
+          <TableColumn fx:id="colName" prefWidth="325.0" text="Product Name" />
+            <TableColumn fx:id="colPrice" prefWidth="162.0" text="Product Price" />
+            <TableColumn fx:id="col4desc" prefWidth="203.0" text="Description" />
+        </columns>
+      </TableView>
+      <Button layoutX="647.0" layoutY="425.0" mnemonicParsing="false" onAction="#searchaddbtn" style="-fx-background-color: #4855B7;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="enterQuantity" layoutX="460.0" layoutY="425.0" prefHeight="51.0" prefWidth="79.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Label layoutX="256.0" layoutY="425.0" prefHeight="51.0" prefWidth="204.0" style="-fx-background-color: #4855B7;" text="Enter The Quantity:" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Text fx:id="searchquantityText" layoutX="256.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="281.13671875" />
+      <TextField fx:id="SearchText" layoutX="14.0" layoutY="335.0" prefHeight="25.0" prefWidth="245.0" promptText="Search for products" />
+      <Label fx:id="Searchmessage" layoutX="14.0" layoutY="302.0" prefHeight="17.0" prefWidth="245.0" />
+      <Button layoutX="259.0" layoutY="335.0" mnemonicParsing="false" onAction="#okbtn" text="OK" />
+   </children>
+</AnchorPane>
